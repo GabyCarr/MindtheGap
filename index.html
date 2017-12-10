@@ -10,6 +10,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
+.pp {
+  text-align: justify;
+}
 </style>
 <body>
 
@@ -17,21 +20,19 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold; background-color: #ac77bf " id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 style="padding-top: 30px">Mind the Gap</h3>
-    <h1 style="font-size: 15px; padding-bottom: 40px;"> Generational Gameshow Factual Entertainment </h1>
+    <img src="Logo.png" style="width: 213px;  padding-top: 30%; padding-left: 10%; margin-bottom: -10px">
   </div>
-  <div class="w3-bar-block" style="background-color: #6aafce">
+  <div class="w3-bar-block" style="background-color: #6aafce;margin-left: 15%;margin-right: 15%">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
     <a href="#synopsis" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Synopsis</a> 
     <a href="#format" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Format</a> 
-    <a href="#application" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Application</a> 
-    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Prouction Team</a> 
+    <a href="#application" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Apply</a> 
   </div>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a>
   <span>Mind the Gap</span>
 </header> 
 
@@ -43,55 +44,27 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="">
-    <img src="Logo.png" style="width:100%" onclick="onClick(this)" alt= "Mind the Gap Logo">
+    <img src="Logo.png" style="width:97%" alt= "Mind the Gap Logo">
     <hr style="width:50px;border:5px; background-color:#ac77bf" class="w3-round">
   </div>
   <!--Synopsis-->
     <div class="w3-container" style="margin-top:80px" id="synopsis">
-    <h1 class="w3-xxxlarge w3-text" style="background-color:#ac77bf"><b>Synopsis.</b></h1>
-    <img src="Logo.png" style="width:25%" onclick="onClick(this)" alt= "Mind the Gap Logo">
-    <p> Mind the gap synopsis</p>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text" style="background-color:#ac77bf"><b>Synopsis</b></h1>
+    <p class="pp"> There is a current feeling of division in contemporary British society, with the generation gap feeling wider than ever. During evening Sunday television on BBC2, <i> Mind the Gap </i> (tm) will get two generations of the same family to compete together, testing their communication and teamwork skills, in order to bridge the generation gap. The show will reward teamwork with points rather than eliminating teams each round. The target audience is family viewers of every generation and we hope to encourage societal feelings of togetherness by showing the benefits of working together despite our differences. We are hoping to represent age, gender and cultural diversity through casting a variety of different families and diverse presenters. We believe as a programme for BBC2 that it should be family-friendly content which reflects the diversity of British society, given its responsibility as a public service broadcaster.</p>
   </div>
   
-  <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
-    </div>
-
-    <div class="w3-half">
-      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
-    </div>
-  </div>
-
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
 
   <!-- Format -->
   <div class="w3-container" id="format" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text" style="background-color: #ac77bf"><b>Format</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p> 6 hour-long episodes broadcast on BBC2 (8pm Sunday slot) over 6 weeks.</p>
-    <p>...
+    <p> <i> 6 hour-long episodes broadcast on BBC2 (8pm Sunday slot) over 6 weeks. </i></p>
+    <p class="pp"> The programme will begin with the introdutory titles and the presenters will welcome the audience. A 30 second teaser of the show highlights will then show some of the most humerous content in the rest of the show, accompanied by the presenter narration which briefly introduces the format. The three families will then be introduced through footage of their home-life and clips from interviews. Each episode consists of three rounds. The round begins with the spin of a wheel which dictates the category of skill the teams will have to compete in. In the first round, the Junior contestant will try to complete 'Senior tasks' with verbal help and encouragement from their Senior, with the roles being swapped in round 2. Round 3 is the jeopardy round in which one contestant from each team will be presented an item from their team member's generation and have to describe what it is (as they are blindfolded) to help the team member guess what it is. The presenters will judge the communication and teamwork in each round and the family with the most points will win a weekend holiday somewhere in the UK. 
     </p>
   </div>
-
   
   <!-- Application -->
   <div class="w3-container" id="application" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text" style="background-color:#ac77bf"><b>Application Form</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Want to win a <b> weekend holiday </b> in the UK with your grandparent/grandchild? <br> <i><b>Both</b> team members must fill in the form below for a chance to be considered as contestants.</i></p>
    <form action="/action_page.php" target="_blank">
       <div class="w3-section" style="width: 50%; margin-left: 5%">
@@ -118,7 +91,7 @@ body {font-size:16px;}
         <input class="w3-input w3-border" type="text" name="Region" required>
       </div>
       <div class="w3-section" style="width: 50%; margin-left: 5%">
-        <label>Why do you want to <b> participate </b> on Mind the Gap (tm)?</label>
+        <label>Why do you want to <b> participate </b> <i> on Mind the Gap</i> (tm)?</label>
         <input class="w3-input w3-border" type="text" name="Region" required>
       </div>
       <div class="w3-section" style="width: 50%; margin-left: 5%">
@@ -137,88 +110,7 @@ body {font-size:16px;}
     </form>  
   </div>
     
-  <!-- The Team -->
-  <div class="w3-container" id="team" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text " style="background-color:#ac77bf"><b>The Team</b></h1>
-        <hr style="width:50px;border:5px solid red" class="w3-round">
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-        <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text " style="background-color:#ac77bf"><b>Packages.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">10 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">20% furniture discount</li>
-        <li class="w3-padding-16">Good deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 199</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">50 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">50% furniture discount</li>
-        <li class="w3-padding-16">GREAT deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 249</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-  </div>
   
-
 <!-- End page content -->
 </div>
 
